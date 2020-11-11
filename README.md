@@ -1,4 +1,7 @@
 # Bridge activation guide
+## Environment requirements
+You need to have Java at least of version 8 installed. If you don't have it, install it the most convenient way for you. For example, from the official website or with Sdkman.
+## Step by step activation
 1. Update `/src/main/resources/` with the json from the referendum proof endpoint
 2. Update `src/main/java/ContractActivation.java':
     * Set ```private static final String url = "";``` to the Ethereum node, for example ```private static final String url = "http://ethereumnode.com";```
