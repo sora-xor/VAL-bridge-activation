@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'co.jp.soramitsu'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.web3j', name: 'crypto', version: '5.0.0'
+    implementation group: 'org.web3j', name: 'core', version: '5.0.0'
+    implementation group: 'org.web3j', name: 'contracts', version: '5.0.0'
+    implementation group: 'org.web3j', name: 'parity', version: '5.0.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
+}
