@@ -1,6 +1,8 @@
 # Bridge activation guide
 ## Environment requirements
-You need to have Java at least of version 8 installed. If you don't have it, install it the most convenient way for you. For example, from the official website or with Sdkman.
+You need to have Java at least of version 8 installed. If you don't have it, install it the most
+ convenient way for you. For example, from [the official website](https://openjdk.java.net/install/index.html)
+ or with [Sdkman](https://sdkman.io/install).
 ## Step by step activation
 1. Update `/src/main/resources/` with the json from the referendum proof endpoint
 2. Update `src/main/java/ContractActivation.java':
